@@ -40,9 +40,9 @@ function updateCounts () {
     invisible: 0
   }
   
-  document.getElementsByClassName('blue').length = displayTotals(blue)
-  document.getElementsByClassName('green').length = displayTotals(green)
-  document.getElementsByClassName('invisible').length = displayTotals(invisible)// WRITE CODE HERE TO COUNT BLUE, GREEN, AND INVISIBLE DOTS
+  document.getElementsByClassName('blue').length = displayTotals()
+  document.getElementsByClassName('green').length = displayTotals()
+  document.getElementsByClassName('invisible').length = displayTotals()// WRITE CODE HERE TO COUNT BLUE, GREEN, AND INVISIBLE DOTS
   // Once you've done the counting, this function will update the display
   displayTotals(totals)
 }
